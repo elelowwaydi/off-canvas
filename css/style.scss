@@ -1,7 +1,6 @@
 $space: 30vh;
 .burger-open,
 .burger-close{
-    margin-top: 10px;
     font-size: 1.9em;
     cursor: pointer;
     transition: all ease .5s;
@@ -20,7 +19,10 @@ $space: 30vh;
   border-color: #e7e7e7 #fff;
 }
 .navbar-nav {
-  margin-left: 20px;
+  padding:10px 20px;
+}
+.navbar-right {
+  margin-right: 0;
 }
 .toggle-nav #wrapper {
     left: 0;
@@ -34,7 +36,6 @@ $space: 30vh;
     -o-transition: -o-transform 500ms ease;
     transition: transform 500ms ease;
 }
-/* When the panel is closed, transition the page back to the left */
 #wrapper {
     left: 0;
     -webkit-transform: translate3d(0, 0, 0);
